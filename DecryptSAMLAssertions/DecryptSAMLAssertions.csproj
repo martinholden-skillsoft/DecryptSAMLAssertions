@@ -32,6 +32,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="SAML2.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\SAML2.Core.1.0.0.0\lib\net45\SAML2.Core.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -47,6 +50,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="certs\openssl.cnf" />
+    <None Include="certs\openssl\LICENSE" />
+    <None Include="certs\saml.crt" />
+    <None Include="certs\saml.pem" />
+    <None Include="certs\saml.pfx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="certs\openssl\libcrypto-1_1.dll" />
+    <Content Include="certs\openssl\libssl-1_1.dll" />
+    <Content Include="certs\openssl\openssl.exe" />
+    <Content Include="certs\openssl\readme.txt" />
+    <Content Include="certs\readme.txt" />
+    <Content Include="saml.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,0 +1,22 @@
+﻿<saml2p:Response xmlns:saml2p="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:saml2="urn:oasis:names:tc:SAML:2.0:assertion" ID="_894f5578-1681-4e6a-a8c5-56ac09c44075" Version="2.0" IssueInstant="2018-11-09T12:44:53.9692994Z" Destination="https://sso.skillport.com/sp/ACS.saml2" InResponseTo="PIDqpH3TjQUZEKrcS3R09q77PGK">
+  <saml2:Issuer>urn:martinholden:identity:saml2:simplesamlidp</saml2:Issuer>
+  <saml2p:Status>
+    <saml2p:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/>
+  </saml2p:Status>
+  <saml2:EncryptedAssertion>
+    <xenc:EncryptedData xmlns:xenc="http://www.w3.org/2001/04/xmlenc#" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" Type="http://www.w3.org/2001/04/xmlenc#Element">
+      <xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+      <dsig:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <xenc:EncryptedKey>
+          <xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/>
+          <xenc:CipherData>
+            <xenc:CipherValue>dZ5k2nrQTaz9kXKwXR8sVFzPJPlKEJWk704uzWQStHvlccf59GsRG0++Yc2EdL3gHXGJtOPN9qqR9HjBiLnzf2bJNFNklzq10nvEwdOwQcc+6t9Em981k21jlGawCbbABBs16EHp89inr5iKJMdUF0kQeznYmxjQ32PvVtohUMViTJJZpzoIG55y7qo2KBxGGRnPOOgZ7pFHhC54X6TURsxpiXbrvNIDLQEHAcuLo8cO44gouM/MMOZDLqm288qWMnAxeEOmP6nC+4p1yEsbohqsW+StYMvYLkar+kuNabEQ/xTZdERs9pRybnCOvkW6FidFfxlwOhmMK2L7GYWPKg==</xenc:CipherValue>
+          </xenc:CipherData>
+        </xenc:EncryptedKey>
+      </dsig:KeyInfo>
+      <xenc:CipherData>
+        <xenc:CipherValue>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</xenc:CipherValue>
+      </xenc:CipherData>
+    </xenc:EncryptedData>
+  </saml2:EncryptedAssertion>
+</saml2p:Response>
